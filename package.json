@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "tsc": "./node_modules/typescript/bin/tsc",
-    "postinstall": "npm run tsc"
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "react": "^18.2.0",
