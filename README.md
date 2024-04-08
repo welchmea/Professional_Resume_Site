@@ -33,3 +33,6 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 </details>
+
+## Deployed with Netlify:
+    https://professional-resume-site.netlify.app
