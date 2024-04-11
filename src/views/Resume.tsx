@@ -13,6 +13,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 
 function Resume() {
+    // citation: https://www.npmjs.com/package/react-pdf
   const [numPages, setNumPages] = useState<number>(2);
   const [pageNumber, setPageNumber] = useState<number>(1);
 
