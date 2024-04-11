@@ -14,13 +14,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 
 function Resume() {
     // citation: https://www.npmjs.com/package/react-pdf
-  const [numPages, setNumPages] = useState<number>(2);
-  const [pageNumber, setPageNumber] = useState<number>(1);
-
-  function onDocumentLoadSuccess({ numPages }: { numPages: number }): void {
-    setNumPages(numPages);
-  }
-
   return (
     <>
       <div className="flex flex-row border border-gray-500 h-[90vh] w-6/6">
@@ -37,15 +30,10 @@ function Resume() {
           <Document file={resume}>
             <Page pageNumber={1} />
           </Document>
-          <p>
-            Page {1} of {2}
-          </p>
           <Document file={resume}>
-            <Page pageNumber={2} />
+            <Page pageNumber={2}  />
           </Document>
-          <p>
-            Page {1} of {2}
-          </p>
+  
         </div>
       </div>
     </>
