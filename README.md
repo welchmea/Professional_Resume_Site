@@ -35,4 +35,4 @@ export default {
 </details>
 
 ### Deployed with Netlify:
-[https://professional-resume-site.netlify.app](url)
+https://professional-resume-site.netlify.app
