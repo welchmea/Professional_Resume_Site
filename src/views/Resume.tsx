@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
 import resume from "../assets/images/Meagan_Welch_Resume_Final.pdf";
-import { useState } from "react";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
 
