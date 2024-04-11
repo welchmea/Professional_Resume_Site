@@ -45,10 +45,10 @@ function HomePage() {
 
         <div className="flex flex-col w-full h-full">
           <div className="flex justify-center p-8 bg-light-green h-1/2">
-            <div className="flex items-center p-8 text-2xl">About Me</div>
+            <div className="flex items-center p-8 text-2xl">About Me:</div>
             <div className="flex items-center">
-              “Software engineer dedicated to designing
-              real-world-problem-solving applications.”
+              “Front-End Web Developer with an eye for aesthetics. Eager to grow 
+              and learn in a team.”
             </div>
           </div>
 
