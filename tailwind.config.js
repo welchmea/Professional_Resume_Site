@@ -15,6 +15,11 @@ export default {
         'light-sage': '#98B7B2',
         'turquoise' : '#0095CC',
         'light-turq': '#6DD1F4',
+        //dark mode
+        'backgroundDark': '#404040',
+        'componentDark': '#262626',
+        'darkestContrast': '#0D0D0D',
+        'accentDark': '#A6A6A6'
       }
     },
   },
