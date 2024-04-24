@@ -2,7 +2,7 @@ import { RiArrowLeftDoubleLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
-import resume from "../assets/images/Welch_SWE.pdf";
+import resume from "../assets/images/Software.pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
 

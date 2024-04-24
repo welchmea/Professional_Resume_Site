@@ -25,6 +25,7 @@ function Projects() {
             <iframe
               width="1000"
               height="500"
+              loading="lazy"
               src="https://fe-bookshelf-6bdf6bf741e2.herokuapp.com"
             ></iframe>
           </div>
@@ -38,6 +39,7 @@ function Projects() {
             <iframe
               width="1000"
               height="500"
+              loading="lazy"
               src="https://gh-hospital-d474f7c585fa.herokuapp.com"
             ></iframe>
           </div>
@@ -51,6 +53,7 @@ function Projects() {
             <iframe
               width="1000"
               height="500"
+              loading="lazy"
               src="https://web-dev-mern-bef2b172b674.herokuapp.com"
             ></iframe>
           </div>
