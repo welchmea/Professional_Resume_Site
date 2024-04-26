@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <>
       <div className="flex flex-row flex-wrap justify-center gap-2">
-        <div className="flex flex-col flex-wrap place-content-center bg-componentDark rounded-md border border-accentDark w-full lg:w-1/4">
+        <div className="flex flex-col flex-wrap place-content-center bg-componentDark rounded-md border border-accentDark w-full md:w-1/4 lg:w-1/4">
           <div className="flex justify-center p-8 sm:p-1 md:p-1 lg:p-4 text-4xl sm:text-md md:text-4xl lg:text-4xl ">My Resume</div>
           <div className="flex justify-center p-8 sm:p-1 md:p-1 lg:p-4 text-lg">Click to view my resume.</div>
           <div className="flex justify-center p-8 sm:p-1 md:p-1 lg:p-4 text-4xl">
@@ -16,7 +16,7 @@ function HomePage() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-y-2 lg:w-1/3">
+        <div className="flex flex-col gap-y-2 md:w-1/3 lg:w-1/3">
           <div className="flex h-2/3 lg:h-3/4 justify-center bg-black rounded-md border border-accentDark">
             <img width="640" height="360" className="flex rounded-md" src={ImageView} />
           </div>
@@ -37,7 +37,7 @@ function HomePage() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-y-2 lg:w-1/3">
+        <div className="flex flex-col gap-y-2 md:w-1/3 lg:w-1/3">
           <div className="flex justify-center p-8 bg-componentDark h-1/2 rounded-md border border-accentDark">
             <div className="flex items-center p-8 text-2xl">About Me:</div>
             <div className="flex items-center text-xs sm:text-xs md:text-md lg:text-xl">
