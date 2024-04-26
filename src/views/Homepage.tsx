@@ -18,7 +18,7 @@ function HomePage() {
 
         <div className="flex flex-col gap-y-2 lg:w-1/3">
           <div className="flex h-2/3 lg:h-3/4 justify-center bg-black rounded-md border border-accentDark">
-            <img className="flex rounded-md h-4/4 w-[100vw]" src={ImageView} />
+            <img className="flex rounded-md" src={ImageView} />
           </div>
           <div className="flex flex-col items-center place-content-center bg-componentDark h-1/3 lg:h-1/4 lg:p-8 rounded-md border border-accentDark">
             <div className="flex p-8 text-2xl">
