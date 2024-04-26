@@ -9,16 +9,16 @@ function Projects() {
           <div className="flex text-4xl">Projects</div>
           <div className="flex text-xl mt-4">
             <Link to='/'>
-            <RiArrowLeftDoubleLine />
+            <RiArrowLeftDoubleLine className="hover:text-red-700"  />
             </Link>
           </div>
         </div>
 
-        <div className="flex flex-col items-center w-full lg:w-5/6 overflow-y-auto p-4 bg-light-turq">
+        <div className="flex flex-col items-center w-full lg:w-5/6 overflow-y-auto p-4 bg-componentDark">
           <div className="mb-12 border border-accentDark p-4 bg-componentDark">
             <p>SWE Portfolio Project</p>
             <p>
-              <a href="https://fe-bookshelf-6bdf6bf741e2.herokuapp.com">
+              <a className="hover:text-red-700" href="https://fe-bookshelf-6bdf6bf741e2.herokuapp.com">
                 Exit to Website
               </a>
             </p>
@@ -32,7 +32,7 @@ function Projects() {
           <div className="mb-12 border border-accentDark p-4 bg-componentDark">
             <p>Intro to Databases Portfolio Project</p>
             <p>
-              <a href="https://gh-hospital-d474f7c585fa.herokuapp.com">
+              <a className="hover:text-red-700"  href="https://gh-hospital-d474f7c585fa.herokuapp.com">
                 Exit to Website
               </a>
             </p>
@@ -46,7 +46,7 @@ function Projects() {
           <div className="mb-12 border border-accentDark p-4 bg-componentDark">
             <p>Web Development Portfolio Project</p>
             <p>
-              <a href="https://web-dev-mern-bef2b172b674.herokuapp.com">
+              <a className="hover:text-red-700"  href="https://web-dev-mern-bef2b172b674.herokuapp.com">
                 Exit to Website
               </a>
             </p>

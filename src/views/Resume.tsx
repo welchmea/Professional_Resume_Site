@@ -20,12 +20,12 @@ function Resume() {
           <div className="flex text-4xl">Resume</div>
           <div className="flex text-xl mt-4">
             <Link to="/">
-              <RiArrowLeftDoubleLine />
+              <RiArrowLeftDoubleLine className="hover:text-red-700"  />
             </Link>
           </div>
         </div>
 
-        <div className="flex flex-col items-center w-full  lg:w-5/6 overflow-y-auto p-4 bg-light-turq border-accentDark">
+        <div className="flex flex-col items-center w-full  lg:w-5/6 overflow-y-auto p-4 bg-componentDark border-accentDark">
           <Document file={resume}>
             <Page pageNumber={1} />
           </Document>
