@@ -23,12 +23,6 @@ function Projects({books, hospital, mern}:{books: any, hospital:any, mern:any}) 
               </a>
             </p>
             {books}
-            {/* <iframe
-              width="1000"
-              height="500"
-              loading="lazy"
-              src="https://fe-bookshelf-6bdf6bf741e2.herokuapp.com"
-            ></iframe> */}
           </div>
           <div className="mb-12 border border-accentDark p-4 bg-componentDark">
             <p>Intro to Databases Portfolio Project</p>
@@ -38,12 +32,6 @@ function Projects({books, hospital, mern}:{books: any, hospital:any, mern:any}) 
               </a>
             </p>
             {hospital}
-            {/* <iframe
-              width="1000"
-              height="500"
-              loading="lazy"
-              src="https://gh-hospital-d474f7c585fa.herokuapp.com"
-            ></iframe> */}
           </div>
           <div className="mb-12 border border-accentDark p-4 bg-componentDark">
             <p>Web Development Portfolio Project</p>
@@ -53,12 +41,6 @@ function Projects({books, hospital, mern}:{books: any, hospital:any, mern:any}) 
               </a>
             </p>
             {mern}
-            {/* <iframe
-              width="1000"
-              height="500"
-              loading="lazy"
-              src="https://web-dev-mern-bef2b172b674.herokuapp.com"
-            ></iframe> */}
           </div>
         </div>
       </div>
