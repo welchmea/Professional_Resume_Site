@@ -1,7 +1,7 @@
 import { RiArrowLeftDoubleLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
-function Projects() {
+function Projects({books, hospital, mern}:{books: any, hospital:any, mern:any}) {
   return (
     <>
       <div className="flex flex-row flex-wrap border border-darkAccent w-6/6">
@@ -22,12 +22,13 @@ function Projects() {
                 Exit to Website
               </a>
             </p>
-            <iframe
+            {books}
+            {/* <iframe
               width="1000"
               height="500"
               loading="lazy"
               src="https://fe-bookshelf-6bdf6bf741e2.herokuapp.com"
-            ></iframe>
+            ></iframe> */}
           </div>
           <div className="mb-12 border border-accentDark p-4 bg-componentDark">
             <p>Intro to Databases Portfolio Project</p>
@@ -36,12 +37,13 @@ function Projects() {
                 Exit to Website
               </a>
             </p>
-            <iframe
+            {hospital}
+            {/* <iframe
               width="1000"
               height="500"
               loading="lazy"
               src="https://gh-hospital-d474f7c585fa.herokuapp.com"
-            ></iframe>
+            ></iframe> */}
           </div>
           <div className="mb-12 border border-accentDark p-4 bg-componentDark">
             <p>Web Development Portfolio Project</p>
@@ -50,12 +52,13 @@ function Projects() {
                 Exit to Website
               </a>
             </p>
-            <iframe
+            {mern}
+            {/* <iframe
               width="1000"
               height="500"
               loading="lazy"
               src="https://web-dev-mern-bef2b172b674.herokuapp.com"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </div>
